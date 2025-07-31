@@ -1,6 +1,6 @@
 # TypeScript Overview
 
-TypeScript is a **superset of JavaScript** that brings optional static typing and future JavaScript features to today's development workflow.
+TypeScript is a **superset of JavaScript** that brings optional static typing(statically typed language) and future JavaScript(dynamically typed language) features to today's development workflow.
 
 ## 🔧 How It Works
 
