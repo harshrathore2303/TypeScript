@@ -33,11 +33,12 @@ These types refer to more complex structures:
 
 ### 🔸 Special Types
 
-* `any`: Disable type checking (avoid unless necessary)
+* `any`: We can use it whenever we don’t want a particular value to cause typechecking errors.
 * `unknown`: Safer alternative to `any`, requires type checking before use
 * `void`: Typically used for functions that don’t return a value
 * `never`: For functions that never return (e.g. throw errors)
-
+* `undefined`: used to signal uninitialized value 
+* `null`: used to signal absent value 
 ---
 
 ## ❓ Why Use Types in TypeScript?
