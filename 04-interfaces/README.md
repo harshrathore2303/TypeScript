@@ -1,0 +1,2 @@
+# Interfaces
+An interface in TypeScript is a way to define the shape or structure of an object. It acts like a contract that objects must follow. It tells the TypeScript compiler what properties and methods an object should have.
