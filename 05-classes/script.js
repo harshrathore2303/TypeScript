@@ -19,12 +19,15 @@ class Device {
 let d1 = new Device();
 let d2 = new Device();
 let d3 = new Device();
-// class BottleMaker{
-// this custructor directly initial value without writing the full code.
-//     constructor(public name: string, public price: number){
-//     }
-// }
-// let b1 = new BottleMaker("Milton", 499);
+/* class BottleMaker{
+    // this custructor directly initial value without writing the full code.
+    constructor(public name: string, public price: number){
+
+    }
+}
+
+let b1 = new BottleMaker("Milton", 499);
+*/
 class BottleMaker {
     constructor(name, price, type, material) {
         this.name = name;

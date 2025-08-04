@@ -42,3 +42,5 @@ A function property on a class is called a method. Methods can use all the same 
 
 ## this keyword
 The object that is currently executing the function or owning the method.
+
+## Get and Set keyword for getter and setter

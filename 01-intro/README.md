@@ -47,6 +47,7 @@ TypeScript is a **superset of JavaScript** that brings optional static typing(st
 ```
 
 TypeScript enhances code quality, maintainability, and team collaboration—especially in large codebases.
+Also TypeScript will always compile the code. It only shows warrings for errors until you change onEmitOnError to true.
 
 ---
 

@@ -19,13 +19,15 @@ let d1 = new Device();
 let d2 = new Device();
 let d3 = new Device();
 
-// class BottleMaker{
+/* class BottleMaker{
     // this custructor directly initial value without writing the full code.
-//     constructor(public name: string, public price: number){
+    constructor(public name: string, public price: number){
 
-//     }
-// }
-// let b1 = new BottleMaker("Milton", 499);
+    }
+}
+
+let b1 = new BottleMaker("Milton", 499);
+*/
 
 class BottleMaker{
     // manual setup of constructor
@@ -41,3 +43,23 @@ class BottleMaker{
     }
 }
 let b2 = new BottleMaker("Cello", 799, "thermas", "stainless steel");
+
+
+// Concept of getter and setter
+class User{
+    constructor(public _name: string, public age?: number){
+
+    }
+
+    get name(){
+        return this._name;
+    }
+
+    set name(value: string){
+        this._name = value;
+    }
+}
+
+let u1 = new User("Harsh", 21);
+console.log(u1.name); //for getter
+u1.name = "Harry"; //for setter
